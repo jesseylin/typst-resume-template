@@ -84,6 +84,7 @@
     fallback: false
   )
 
+  // set about me
   let name = {
     set align(center)
     set pad(bottom: 5pt)
