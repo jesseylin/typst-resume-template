@@ -83,7 +83,7 @@
     fill: black,
     fallback: false
   )
-  show link: it => [#h(0pt, weak: true); #set text(blue); #underline(it.body);]
+  show link: it => [#h(0pt, weak: true); #set text(blue); #box[#underline(it.body)];]
 
   // set about me
   let name = {
