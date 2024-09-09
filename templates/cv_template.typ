@@ -178,12 +178,12 @@
 
     // formatting functions
     let fmt_org(org) = [
-      #set text(size: 13pt)
+      #set text(size: sizing.org_size)
       #show: strong
       #org
     ]
     let fmt_location(location) = [
-      #set text(size: 12pt)
+      #set text(size: sizing.location_size)
       #location
     ]
     let fmt_time(time) = [
